@@ -1,10 +1,6 @@
 # Information-Retrieval-Project
 Search engine on 6 million documents from English Wikipedia
 
-Intro
-=====
-In this project we built a search engine for 6 million (approximetely) of English Wikipedia.
-
 Content
 ==========
 
@@ -15,7 +11,7 @@ Content
 
 
 ## search_frontend
-This file contains 5 search methods that process queries and return results from the entire Wikipedia corpus:
+This file contains a main search method and 5 search methods that follow the project's instructions, process queries and return results from the entire Wikipedia corpus:
 
 - `search` - The main method, returns up to a 100 of our best search results for the query. The search results ordered from best to worst where each element is a tuple (wiki_id, title).
 
