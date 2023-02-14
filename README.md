@@ -1,8 +1,6 @@
 # Information-Retrieval-Project
 Search engine on 6 million documents from Wikipedia
 
-# Final-Project
-
 Intro
 =====
 In this project we built a search engine for 6 million (approximetely) of English Wikipedia.
