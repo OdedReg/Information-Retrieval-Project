@@ -15,16 +15,16 @@ This file contains a main search method and 5 search methods that follow the pro
 
 - `search` - The main method, returns up to a 100 of our best search results for the query. The search results ordered from best to worst where each element is a tuple (wiki_id, title).
 
-- `search_body` - A method that returns up to 100 search results for the query, using TF-IDF and Cosine Similarity on the body of the articles.
+- `search_body` - a method that returns up to 100 search results for the query, using TF-IDF and Cosine Similarity on the body of the articles.
 
-- `search_title` - A method that returns all search results that contain a query word in the title of articles, ordered in descending order of the number of distinct query words that appear in the title.
+- `search_title` - a method that returns all search results that contain a query word in the title of articles, ordered in descending order of the number of distinct query words that appear in the title.
 
-- `search_anchor` - A method that returns all search results that contain a query word in the anchor text of articles, ordered in
+- `search_anchor` - a method that returns all search results that contain a query word in the anchor text of articles, ordered in
 descending order of the the number of query words that appear in anchor text linking to the page.
 
-- `get_pagerank` - A method that returns PageRank values for a list of provided wiki article IDs.
+- `get_pagerank` - a method that returns PageRank values for a list of provided wiki article IDs.
 
-- `get_pageview` - A method that returns the number of page views for a list of provided wiki article IDs.
+- `get_pageview` - a method that returns the number of page views for a list of provided wiki article IDs.
 
 ## create_indexes
 
